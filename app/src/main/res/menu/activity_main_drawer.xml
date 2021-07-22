@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/Navigation"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/notes_menu_title" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/courses_menu_title" />
+        <item
+            android:id="@+id/nav_recently"
+            android:icon="@drawable/ic_baseline_remove_red_eye_24"
+            android:title="@string/recently_viewed_menu_title" />
+    </group>
+    <group
+        android:id="@+id/Communication"
+        android:enabled="true"
+        android:menuCategory="secondary"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_how_many"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/how_many_menu_title" />
+    </group>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteKeeper</string>
+    <string name="action_settings">Réglages</string>
+    <string name="note_text_hint">Texte de la note</string>
+    <string name="note_title_hint">Titre de la note</string>
+    <string name="note_activity_label">Modifier la note</string>
+    <string name="nav_how_many_message_format">Notes : %1$d | Cours : %2$d</string>
+    <string name="nav_header_title">Bloc-notes</string>
+    <string name="nav_notes_message">Notes</string>
+    <string name="nav_courses_message">Cours</string>
+    <string name="nav_recently_message">Notes vues récemment</string>
+    <string name="notes_menu_title">Notes</string>
+    <string name="courses_menu_title">Cours</string>
+    <string name="recently_viewed_menu_title">Vue Récemment</string>
+    <string name="how_many_menu_title">Combien</string>
+    <string name="nav_header_subtitle">stephane.orluc@forgerock.com</string>
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+    <string name="title_activity_items">Bloc-notes</string>
+    <string name="nav_header_desc">Entête de navigation</string>
+    <string name="title_activity_note_list">Liste des notes</string>
+</resources>

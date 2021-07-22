@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CourseTitle" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Small.NoteTitle">
+        <item name="android:textColor">@color/plum</item>
+    </style>
+
+    <style name="BrandedText" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="BrandedText.CourseName">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ModuleName" parent="BrandedText">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AddFAB" parent="@style/Widget.Design.FloatingActionButton">
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:backgroundTint">@color/plum</item>
+        <item name="tint">@android:color/white</item>
+        <item name="srcCompat">@drawable/ic_baseline_add_white_24</item>
+    </style>
+
+</resources>
