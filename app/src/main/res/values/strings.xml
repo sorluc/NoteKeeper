@@ -9,7 +9,7 @@
     <string name="nav_header_subtitle">stephane.oruc@forgerock.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="note_activity_label">Edit Note</string>
-    <string name="note_title_hint">Note title</string>
+    <string name="note_title_hint">Note Title</string>
     <string name="note_text_hint">Note Text</string>
     <string name="nav_notes_message">Notes</string>
     <string name="nav_courses_message">Courses</string>
